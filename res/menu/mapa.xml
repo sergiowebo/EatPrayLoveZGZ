@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/vista_normal"
+        android:orderInCategory="100"
+        android:title="@string/vista_normal"/>
+    
+    <item android:id="@+id/vista_terrain"
+        android:orderInCategory="100"
+        android:title="@string/vista_terrain"/>
+    
+    <item android:id="@+id/vista_satellite"
+        android:orderInCategory="100"
+        android:title="@string/vista_satellite"/>
+    
+    <item android:id="@+id/vista_hybrid"
+        android:orderInCategory="100"
+        android:title="@string/vista_hybrid"/>
+ 
+    <item android:id="@+id/menu_posicion"
+        android:orderInCategory="200"
+        android:title="Posición"/>
+
+</menu>

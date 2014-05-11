@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Pantalla splash -->
+    <string name="app_name">CityGuideZGZ</string>
+    <string name="app_description">This City Guide will enable you to discover the city attractions before your arrival...</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <!-- Nombres de las activity -->
+    <string name="activity_seeing">CityGuideZGZ - Seeing</string>
+    <string name="activity_sleeping">CityGuideZGZ - Sleeping</string>
+    <string name="activity_eating">CityGuideZGZ - Eating</string>
+    <string name="activity_bookmarks">CityGuideZGZ - Bookmarks</string>
+
+    <!-- Items de la pantalla de about -->
+    <string name="about_autor">Autor: Sergio Castellote Calvo</string>
+    <string name="about_version">Version 1.0</string>
+	<string name="cc_licencia">Reconocimiento – NoComercial – CompartirIgual</string>
+
+    <!-- Items del menu principal MainActivity -->
+    <string name="menu_item_monumentos">Seeing</string>
+    <string name="menu_item_restaurantes">Eating</string>
+    <string name="menu_item_alojamientos">Sleeping</string>
+    <string name="menu_item_favoritos">Bookmarks</string>
+
+    <!-- Items del menu vista -->
+    <string name="vista_normal">Normal</string>
+    <string name="vista_terrain">Terrain</string>
+    <string name="vista_satellite">Satellite</string>
+    <string name="vista_hybrid">Hybrid</string>
+
+    <!-- Items del infoWindowAdapter -->
+    <string name="button_moreinfo">More info</string>
+    <string name="button_bookmark">Bookmark</string>
+
+    <!-- Items de la BBDD -->
+    <string name="action_settings">Settings</string>
+    <string name="label_loading">Getting current location. Please wait...</string>
+    <string name="label_location">Location</string>
+    <string name="label_add_place">Add a new place</string>
+    <string name="label_name">Name</string>
+    <string name="label_description">Description</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_save">Bookmark</string>
+    <string name="label_place_info">Place information</string>
+    <string name="label_add_name_desc">Name and description is mandatory</string>
+    <string name="label_title_already_exists">A place with a similar name already exists</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>

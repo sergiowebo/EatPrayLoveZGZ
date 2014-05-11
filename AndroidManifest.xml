@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sergiowebo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <permission
+        android:name="com.sergiowebo.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.sergiowebo.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAH3Vcoz9OgYCXlvZSBMVQBzFR_KxKq2r4" />
+
+        <activity
+            android:name="com.sergiowebo.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sergiowebo.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.sergiowebo.SeeingActivity"
+            android:label="@string/activity_seeing" >
+        </activity>
+        <activity
+            android:name="com.sergiowebo.MarkerDetailActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.sergiowebo.BookmarkActivity"
+            android:label="@string/activity_bookmarks" >
+        </activity>
+        <activity
+            android:name="com.sergiowebo.SleepingActivity"
+            android:label="@string/activity_sleeping" >
+        </activity>
+        <activity
+            android:name="com.sergiowebo.EatingActivity"
+            android:label="@string/activity_eating" >
+        </activity>
+        <activity
+            android:name="com.sergiowebo.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>
